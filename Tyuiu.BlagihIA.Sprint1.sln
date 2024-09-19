@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BlagihIA.Sprint1.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BlagihIA.Sprint1.Task0.V9.Lib", "Tyuiu.BlagihIA.Sprint1.Task0.V9.Lib\Tyuiu.BlagihIA.Sprint1.Task0.V9.Lib.csproj", "{E1517520-FE06-4EEB-BB36-B93D1FE80EE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BlagihIA.Sprint1.Task1.V9.Test", "Tyuiu.BlagihIA.Sprint1.Task1.V9.Test\Tyuiu.BlagihIA.Sprint1.Task1.V9.Test.csproj", "{DE5C4801-BD52-490D-B30F-4B2CB71310E7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BlagihIA.Sprint1.Task0.V9.Test", "Tyuiu.BlagihIA.Sprint1.Task1.V9.Test\Tyuiu.BlagihIA.Sprint1.Task0.V9.Test.csproj", "{DE5C4801-BD52-490D-B30F-4B2CB71310E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
