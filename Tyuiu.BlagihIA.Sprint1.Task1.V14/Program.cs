@@ -1,4 +1,5 @@
-﻿using Tyuiu.BlagihIA.Sprint1.Task1.V14.Lib;
+﻿
+using Tyuiu.BlagihIA.Sprint1.Task1.V14.Lib;
 namespace Tyuiu.BlagihIA.Sprint1.Task1.V14
 {
     internal class Program
@@ -46,7 +47,7 @@ namespace Tyuiu.BlagihIA.Sprint1.Task1.V14
             Console.ReadKey();
 
 
-            
+
         }
     }
 }
