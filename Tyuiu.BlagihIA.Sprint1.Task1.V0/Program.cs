@@ -1,5 +1,5 @@
-﻿using Tyuiu.BlagihIA.Sprint1.Task0.V9.Lib;
-namespace Tyuiu.BlagihIA.Sprint1.Task0.V9
+﻿using Tyuiu.BlagihIA.Sprint1.Task1.V0.Lib;
+namespace Tyuiu.BlagihIA.Sprint1.Task1.V0
 {
     internal class Program
     {
@@ -12,25 +12,41 @@ namespace Tyuiu.BlagihIA.Sprint1.Task0.V9
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки  работы в С#                                       *");
-            Console.WriteLine("* Задание #0                                                              *");
-            Console.WriteLine("* Вариант #0                                                              *");
+            Console.WriteLine("* Задание #1                                                              *");
+            Console.WriteLine("* Вариант #14                                                             *");
             Console.WriteLine("* Выполнил: Благих Игорь Александрович | ИИПб-24-2                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу которая вычисляет  выражение   (9/3)*4/3/2+1 и       *");
-            Console.WriteLine("* выводит результат на экран                                              *");
+            Console.WriteLine("* Написать программу которая вычисляет выражение a * b / c + (a / (b + c))*");
+            Console.WriteLine("* и выводит результат на экран                                            *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
-            Console.WriteLine("* (9/3)*4/3/2+1                                                           *");
+            Console.WriteLine("***************************************************************************");
+
+
+
+            double a, b, c;
+
+            Console.WriteLine("Введите а:");
+            a = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите b:");
+            b = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите c:");
+            c = Convert.ToDouble(Console.ReadLine());
+
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
+            Console.WriteLine(ds.Calculate(a, b, c));
+            Console.ReadKey();
 
-            Console.WriteLine(ds.Calculate());
 
-            Console.ReadLine();
+            
         }
     }
 }
