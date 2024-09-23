@@ -1,5 +1,5 @@
-﻿using Tyuiu.BlagihIA.Sprint1.Task1.V0.Lib;
-namespace Tyuiu.BlagihIA.Sprint1.Task1.V0
+﻿using Tyuiu.BlagihIA.Sprint1.Task1.V14.Lib;
+namespace Tyuiu.BlagihIA.Sprint1.Task1.V14
 {
     internal class Program
     {
