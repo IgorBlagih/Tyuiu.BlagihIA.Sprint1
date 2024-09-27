@@ -5,7 +5,7 @@ namespace Tyuiu.BlagihIA.Sprint1.Task2.V16.Lib
     {
         public double CalculatePerimetrCircle(int value)
         {
-            return 2 * 3.14 * value;
+            return Math.Round(2 * 3.14159 * value, 3);
         }
     }
 }

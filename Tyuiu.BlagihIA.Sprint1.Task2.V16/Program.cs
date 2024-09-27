@@ -28,8 +28,11 @@ namespace Tyuiu.BlagihIA.Sprint1.Task2.V16
 
             int r;
 
+            
+
             Console.WriteLine("Введите радиус:");
             r = Convert.ToInt32(Console.ReadLine());
+            
 
 
             Console.WriteLine("***************************************************************************");
